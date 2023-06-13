@@ -4,19 +4,19 @@ quanto para máquinas. O JSON é baseado em um subconjunto da linguagem de progr
 O formato JSON utiliza uma estrutura de pares chave-valor para representar os dados. Os valores podem ser de diferentes tipos, como strings (cadeias de caracteres), números, booleanos,
 arrays (vetores) e objetos. Aqui está um exemplo básico de um objeto JSON: */
 
-    {
-        "nome": "João",
-        "idade": 25,
-        "cidade": "São Paulo"
-    }
+    // {
+    //     "nome": "João",
+    //     "idade": 25,
+    //     "cidade": "São Paulo"
+    // }
 
 /* Nesse exemplo, temos um objeto com três pares chave-valor. A chave "nome" tem o valor "João", a chave "idade" tem o valor 25 e a chave "cidade" tem o valor "São Paulo".
 
 Além de objetos, o JSON também permite o uso de arrays para representar listas de valores. Aqui está um exemplo de um array JSON: */
 
-    {
-        "frutas": ["maçã", "banana", "laranja"]
-    }
+    // {
+    //     "frutas": ["maçã", "banana", "laranja"]
+    // }
     
 /* Nesse exemplo, temos um objeto com uma chave "frutas" que contém um array com três elementos: "maçã", "banana" e "laranja".
 
