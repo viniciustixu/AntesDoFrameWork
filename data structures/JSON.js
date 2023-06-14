@@ -24,3 +24,4 @@ O JSON é amplamente utilizado em aplicações web e serviços de API para trans
 e pode ser convertido em objetos ou estruturas de dados nativas dessas linguagens.
 
 Espero que isso esclareça o que você precisa saber sobre JSON em português. Se você tiver mais alguma pergunta, sinta-se à vontade para perguntar! */
+
