@@ -1,4 +1,5 @@
-/* O loop for...of em JavaScript é usado para iterar sobre objetos iteráveis, como arrays, strings, mapas, sets, etc. Ele fornece uma maneira fácil e concisa de percorrer os elementos de uma coleção sem a necessidade de uma variável de índice ou acessar os elementos pelo índice.
+/* O loop for...of em JavaScript é usado para iterar sobre objetos iteráveis, como arrays, strings, mapas, sets, etc. Ele fornece uma maneira fácil e concisa de percorrer os
+elementos de uma coleção sem a necessidade de uma variável de índice ou acessar os elementos pelo índice.
 
 Aqui está a sintaxe básica do loop for...of: */
 
@@ -6,7 +7,8 @@ Aqui está a sintaxe básica do loop for...of: */
     // código a ser executado para cada elemento
     }
 
-/* Em cada iteração, a variável representa o elemento atual do objeto iterável. Você pode escolher qualquer nome de variável válido para representar os elementos. O iterável é um objeto que pode ser percorrido.
+/* Em cada iteração, a variável representa o elemento atual do objeto iterável. Você pode escolher qualquer nome de variável válido para representar os elementos. O iterável é um
+objeto que pode ser percorrido.
 
 Vamos ver alguns exemplos:
 
