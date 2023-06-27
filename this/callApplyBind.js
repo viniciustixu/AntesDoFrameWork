@@ -19,9 +19,9 @@ function saudacao(cumprimento) {
   console.log(`${cumprimento}, ${this.nome}!`);
 }
 
-const pessoa = { nome: 'Maria' };
+const pessoa2 = { nome: 'Maria' };
 
-saudacao.apply(pessoa, ['Bom dia']); // Saída: Bom dia, Maria!
+saudacao.apply(pessoa2, ['Bom dia']); // Saída: Bom dia, Maria!
 
 /* bind: O método bind cria uma nova função com o contexto (this) vinculado ao objeto especificado. Diferentemente de call e apply, o bind não executa a função imediatamente, mas
 retorna uma nova função que pode ser chamada posteriormente.
@@ -31,9 +31,9 @@ function saudacao() {
   console.log(`Olá, ${this.nome}!`);
 }
 
-const pessoa = { nome: 'Ana' };
+const pessoa3 = { nome: 'Ana' };
 
-const saudarPessoa = saudacao.bind(pessoa);
+const saudarPessoa = saudacao.bind(pessoa3);
 saudarPessoa(); // Saída: Olá, Ana!
 
 /* Esses métodos são úteis quando você precisa controlar o contexto de execução de uma função, permitindo que você altere temporariamente o valor de this ou forneça argumentos de
